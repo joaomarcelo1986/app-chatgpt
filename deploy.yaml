@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
       - name: webapp
-        image: seu_usuario_dockerhub/webapp:latest # Altere se for outro repositório
+        image: joaomarcelo1986/app-chatgpt # Altere se for outro repositório
         ports:
         - containerPort: 5000
 ---
